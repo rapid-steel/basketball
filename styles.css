@@ -1,0 +1,35 @@
+#outer-container {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#img-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:0;
+}
+
+#img-input {
+    visibility: hidden;
+}
+
+#img-input-label {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    top: 360px;
+    left: 260px;
+    width: 125px;
+    height: 32px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#text-input {
+    position: absolute;
+    border: none;
+}
+
